@@ -35,6 +35,7 @@ window#waybar.hidden {
 
 #workspaces button.active {
   background-color: #689D68;
+  color: #27322B;
 }
 
 
@@ -52,21 +53,26 @@ window#waybar.hidden {
 #memory,
 #pulseaudio,
 #tray,
-#window,
-#language {
-  margin: 0 4px;
-  padding: 0;
+#window {
+  margin: 0 0px;
 }
 
 #clock,
 #cpu,
 #memory,
 #pulseaudio,
-#window {
-  margin: 0 4px;
+#window,
+#tray {
   padding-right: 12px;
-  border-right: 1px solid #966F23;
+  padding-left: 6px;
+  border-right: 2px solid #EBDBB2;
 }
+
+#tray {
+  border: none;
+  padding-right: 0px;
+}
+
 
 /* If workspaces is the leftmost module, omit left margin */
 .modules-left>widget:first-child>#workspaces {
@@ -75,7 +81,7 @@ window#waybar.hidden {
 
 .modules-right {
   background-color: #282828;
-  color: #966F23;
+  color: #EBDBB2;
 }
 
 .modules-left {

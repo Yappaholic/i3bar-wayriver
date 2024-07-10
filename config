@@ -11,6 +11,7 @@
     ],
     "modules-right": [
         "pulseaudio",
+        "custom/separator",
         "cpu",
         "memory",
         "clock",
@@ -46,6 +47,11 @@
     "format-source-muted": "",
     "format-icons": {
         "default": ["", "", ""]
+    },
+    "custom/separator": {
+    "format": "|",
+    "interval": "once",
+    "tooltip": false
     },
     },
         "escape": true,

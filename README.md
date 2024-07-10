@@ -7,3 +7,7 @@ So, I made this clone/copy of i3bar-river with same visual look and added tray m
 
 Hope you like it!
 
+## Preview
+
+![preview](./preview.png)
+
